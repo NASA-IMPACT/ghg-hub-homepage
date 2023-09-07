@@ -32,10 +32,10 @@
 
 <div class="container login-header" id="home" data-authenticator-login-url="{{authenticator_login_url}}">
   <div class="col-md-12 text-center">
-    <img src="{{static_url("extra-assets/images/logos/epa.svg") }}" alt='Jupyter' height="64" />
-    <img src="{{static_url("extra-assets/images/logos/nasa.png") }}" alt='Jupyter' height="64" />
-    <img src="{{static_url("extra-assets/images/logos/nist.png") }}" alt='Jupyter' height="64" />
-    <img src="{{static_url("extra-assets/images/logos/noaa.png") }}" alt='Jupyter' height="64" />
+    <img src="{{static_url("extra-assets/images/logos/epa.svg") }}" alt='EPA logo' height="64" />
+    <img src="{{static_url("extra-assets/images/logos/nasa.png") }}" alt='NASA logo' height="64" />
+    <img src="{{static_url("extra-assets/images/logos/nist.png") }}" alt='NIST logo' height="64" />
+    <img src="{{static_url("extra-assets/images/logos/noaa.png") }}" alt='NOAA logo' height="64" />
   </div>
 
 
@@ -86,12 +86,16 @@
   
   </div>
 
-  <div class="footer col-md-12">
+    <div class="footer col-md-12">
     <p>
       This service is run transparently from
-      <a href="https://github.com/2i2c-org/pilot-hubs">
-        github.com/2i2c-org/pilot-hubs
+      <a href="https://github.com/2i2c-org/infrastructure">
+        github.com/2i2c-org/infrastructure
+      </a> by
+      <a href="https://2i2c.org">
+        2i2c.org
       </a>
+
     </p>
     <p>
       Built with
@@ -101,6 +105,9 @@
       <a href="https://github.com/conda-forge/miniforge">Miniforge</a> and
       many parts of the <a href="https://jupyter.org">Jupyter Project</a>
       </p>
+          	<a href="https://2i2c.org">
+  		<img src="https://2i2c.org/media/logo.svg" height="32">
+		</a>
   </div>
 </div>
 {% endblock %}
